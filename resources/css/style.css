@@ -11,11 +11,13 @@ body {
 
 header {
 	display: flex;
+	height: 69px;
+	position: fixed;
+	background-color: black;
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	padding: 17.25px 0px 17.25px 10px;
-	color: seashell;
-	background-color: black;
+
 	border-bottom: 1pt solid seashell;
 	text-decoration: underline;
 }
@@ -25,18 +27,17 @@ nav span {
 }
 
 .container {
-	display: flex;
-	align-items: center;
+	padding-top: 100px;
+	display: inline-block;
+
+
 }
 
 .main {
 	display: flex;
-	flex-direction: column;
+
 	justify-content: center;
-	margin:0 auto;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-position: center;
+	align-items: center;
 	height: 700px;
 	width: 1200px;
 	background-image: url(../images/img-mission-background.jpg);
@@ -44,8 +45,44 @@ nav span {
 
 
 .mainText {
-	align-items: center;
-	height: 130px;
-	width: 100%;
 	background-color: black;
+	height: 110px;
+	width: 100%;
+	padding-bottom: 30px;
+
+}
+
+.teaMonth {
+	margin-top: 30px;
+	display: inline-block;
+	width: 1000px;
+}
+
+.photoDescriptions {
+  justify-content: center;
+  align-content: space-between;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+    padding: 0 0;
+  margin: 0 auto;
+  
+}
+
+.photoNote img {
+
+	height: 200px;
+	width:300px;
+		padding: 0 0;
+	}
+
+.photoNote {
+
+	margin-bottom: 20px;
+
+}
+
+.photoNote h4 {
+	padding: 0 0;
+	margin-top: 10px;
 }
