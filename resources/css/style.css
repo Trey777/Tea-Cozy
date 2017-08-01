@@ -3,7 +3,7 @@ body {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0.9;
 	text-align: center;
 	font-family: Helvetica;
 }
@@ -17,13 +17,13 @@ header {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-
+	padding-right: 20px;
 	border-bottom: 1pt solid seashell;
 	text-decoration: underline;
 }
 
 nav span {
-	padding-right: 20px;
+	
 }
 
 .container {
@@ -35,7 +35,6 @@ nav span {
 
 .main {
 	display: flex;
-
 	justify-content: center;
 	align-items: center;
 	height: 700px;
@@ -45,11 +44,15 @@ nav span {
 
 
 .mainText {
-	background-color: black;
-	height: 110px;
-	width: 100%;
-	padding-bottom: 30px;
+  background-color: black;
+  width: 1200px;
+  height: 100px;
 
+}
+
+.mainText h2, .mainText h4 {
+	  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .teaMonth {
@@ -73,7 +76,7 @@ nav span {
 
 	height: 200px;
 	width:300px;
-		padding: 0 0;
+		padding: 0 15px;
 	}
 
 .photoNote {
