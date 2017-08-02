@@ -24,9 +24,15 @@ header nav span {
   padding-right: 30px;
 }
 
-.container {
+#container {
   padding-top: 69px;
   display: inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:seashell;
+
 }
 
 .main {
@@ -51,7 +57,7 @@ header nav span {
   margin-bottom: 10px;
 }
 
-.teaMonth {
+#teaMonth {
   margin-top: 30px;
   display: inline-block;
   width: 1000px;
@@ -82,7 +88,7 @@ header nav span {
   margin-top: 10px;
 }
 
-.locations {
+#locations {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +100,7 @@ header nav span {
   align-items: center;
 }
 
-.locations h2 {
+#locations h2 {
   padding-bottom: 0;
   margin-bottom: 15px;
   ;
@@ -119,9 +125,18 @@ header nav span {
 
 }
 .contactInfo {
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	height: 200px;
+	padding-bottom: 60px;
 }
 
+.copyright {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin: 0 auto;
+	padding-left: 20px;
+}
